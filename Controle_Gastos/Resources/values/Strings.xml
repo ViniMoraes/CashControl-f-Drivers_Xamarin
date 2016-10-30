@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <string name ="ApplicationName">Controle de Gastos</string>
+  <string name ="Resume">Resumo</string>
+  <string name ="TripItens">Itens desta Viagem:</string>
+
+  <string name ="Value">Valor</string>
+  <string name ="Total">Total</string>
+
+  <string name ="Day">Dia</string>
+  <string name ="Week">Semana</string>
+  <string name ="Month">Mês</string>
+  <string name ="Year">Ano</string>
+
+  <string name ="Trips">Viagens</string>
+  <string name ="This_Trip">Esta Viagem</string>
+  <string name ="Current_Trip">Viagem Atual</string>
+  <string name ="New_Trip">Nova Viagem</string>
+  <string name ="Add_in_trip:">Adicionar na Viagem:</string>
+
+  <string name ="New_Item">Novo Item</string>
+  <string name ="Config">Configurações</string>
+  <string name ="History">Histórico</string>
+
+  <string name ="Add">Adicionar</string>
+  <string name ="Delete">Excluir</string>
+  <string name ="Edit">Editar</string>
+
+  <string name ="Category">Categoria</string>
+  <string name ="Details">Detalhes</string>
+
+  <string name ="Fuel">Combustível</string>
+  <string name ="Stowage">Carga</string>
+  <string name ="Toll">Pedágios</string>
+  <string name ="Others">Outros</string>
+
+  <string name ="Home">Origem</string>
+  <string name ="Destiny">Destino</string>
+  <string name ="Reward">Frete</string>
+
+  <string name ="Currency">R$</string>
+  <string name ="expenses_of_this_trip">Gastos dessa viagem</string>
+  <string name ="net_total">Total Líquido</string>
+
+  <string name ="Trip_History_Text">Você ainda não tem viagens cadastradas!</string>
+
+</resources>

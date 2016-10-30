@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/verde_azulado</item>
+    <item name="colorAccent">@color/verde_azulado</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <!--
+
+    <item name="android:windowCloseOnTouchOutside">true</item>
+    <item name="primary">@color/azul_base</item>
+    <item name="accent">@color/azul_base</item>
+    <item name="windowBackground">@color/branco_azulado</item>
+    <item name="primaryText">@color/cinza_escuro</item>
+    <item name="primaryDark">#00FF15</item>
+    <item name="lightPrimary">#00FF15</item>
+    <item name="textIcon">#00FF15</item>
+    <item name="secondaryText">#00FF15</item>
+    <item name="divider">#00FF15</item>
+    <item name="activated_color">#00FF15</item>
+    -->
+  </style>
+</resources>

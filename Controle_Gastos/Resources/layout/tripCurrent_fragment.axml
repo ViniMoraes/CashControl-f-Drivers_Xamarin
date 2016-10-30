@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_margin="20px">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout1"
+            android:stretchColumns="0"
+            android:elevation="7px">
+            <TableRow>
+                <TextView
+                    android:text="@string/Destiny"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textView22" />
+                <TextView
+                    android:text=" - - - - "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/text_destiny"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/Reward"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="7555,00"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_reward"
+                    android:textColor="@android:color/holo_green_light"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/expenses_of_this_trip"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="2000,00"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_spent"
+                    android:textColor="@android:color/holo_red_light"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="@string/net_total"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="5555,00"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_total"
+                    android:gravity="right" />
+            </TableRow>
+        </TableLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/cinza_escuro" />
+        <TextView
+            android:text="@string/TripItens"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_itens" />
+    </LinearLayout>
+</FrameLayout>

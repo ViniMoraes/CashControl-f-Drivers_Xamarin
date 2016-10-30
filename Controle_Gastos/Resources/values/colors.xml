@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <item name="azul_base" type="color">#40A3D8</item>
+  <item name="branco_azulado" type="color">#E2EAEE</item>
+  <item name="cinza_escuro" type="color">#2A3334</item>
+  <item name="verde_azulado" type="color">#009787</item>
+  <item name="verde_azulado_hl" type="color">#3CB5A8</item>
+  
+
+  <integer-array name="mycolors">
+    <item>@color/azul_base</item>
+    <item>@color/branco_azulado</item>
+    <item>@color/cinza_escuro</item>
+    <item>@color/verde_azulado</item>
+    <item>@color/verde_azulado_hl</item>
+
+  </integer-array>
+
+</resources>

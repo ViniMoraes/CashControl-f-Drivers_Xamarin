@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" />
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:id="@+id/TabLayout"
+            android:background="?attr/colorPrimary" />
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewPager"
+            android:layout_below="@+id/TabLayout"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fa_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        fab:menu_colorNormal="?attr/colorPrimary"
+        fab:menu_colorPressed="@color/verde_azulado_hl"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp">
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_newtrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trip"
+            fab:fab_colorNormal="?attr/colorPrimary"
+            fab:fab_colorPressed="@color/verde_azulado_hl"
+            fab:fab_label="@string/New_Trip" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_newitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/money"
+            fab:fab_colorNormal="?attr/colorPrimary"
+            fab:fab_colorPressed="@color/verde_azulado_hl"
+            fab:fab_label="@string/New_Item" />
+    </com.github.clans.fab.FloatingActionMenu>
+</FrameLayout>
